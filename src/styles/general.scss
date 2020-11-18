@@ -38,6 +38,7 @@ ul {
     margin: 0;
 }
 
+
 .buttonUp {
     position: fixed;
     right: 3%;
@@ -134,6 +135,10 @@ ul {
         background: #292929;
         width: 47.5%;
     }
+}
+
+.padding-mini-tit h5 {
+    padding-left: 198px;
 }
 
 // custom select
@@ -557,6 +562,32 @@ header {
             width: 194px;
             height: 56px;
         }
+
+        .heading {
+            span {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 32px;
+                line-height: 37px;
+                text-align: center;
+                color: #FFFFFF;
+                margin-bottom: 15px;
+                display: block;
+            }
+        }
+
+        .heading-second {
+            margin-bottom: 104px;
+
+            span {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                line-height: 21px;
+                text-align: center;
+                color: white;
+            }
+        }
     }
 }
 
@@ -624,6 +655,70 @@ header {
             }
         }
     }
+
+    .second-content {
+        width: fit-content;
+
+        p {
+            text-align: justify;
+
+            @media (min-width:1800px) {
+                width: 560px
+            }
+        }
+    }
+
+    .information {
+        transform: translateX(-65px);
+    }
+
+    table {
+        margin: 50px 0 0;
+
+        th,
+        td {
+            padding: 10px;
+        }
+
+        th {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: #292929;
+        }
+
+        td {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            color: #292929;
+        }
+    }
+}
+
+.tb_first_sect_second {
+    background: #F8F8F8;
+
+    .images-lyr {
+        transform: translateX(0);
+    }
+}
+
+.second-content-h5 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px !important;
+    line-height: 21px;
+    text-align: justify;
+    color: #292929 !important;
+    margin-bottom: 30px;
+}
+
+.tb_second_sect_second {
+    background: white !important;
+    padding-bottom: 100px;
 }
 
 .tb_second_section {
@@ -1060,39 +1155,39 @@ header {
 }
 
 .inner-sect {
-            background: white;
-            margin-top: 100px;
-            padding: 100px 0;
-    
-            h4 {
-                font-style: normal;
-                font-weight: bold;
-                font-size: 32px;
-                line-height: 37px;
-                color: #292929;
-                margin-bottom: 15px;
-                text-align: center;
-            }
-    
-            p {
-                font-style: normal;
-                font-weight: normal;
-                font-size: 18px;
-                line-height: 21px;
-                color: #292929;
-                margin-bottom: 35px;
-                text-align: center;
-            }
-    
-            button {
-                width: 194px;
-                height: 56px;
-            }
+    background: white;
+    margin-top: 100px;
+    padding: 100px 0;
+
+    h4 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 37px;
+        color: #292929;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #292929;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    button {
+        width: 194px;
+        height: 56px;
+    }
 }
 
 .tb_tab_section {
     background: #F5F5F5;
-    padding-top:100px;
+    padding-top: 100px;
 
     .tb_third_section {
         padding: 0;
@@ -1164,6 +1259,39 @@ header {
         &.active {
             color: #EEA736;
             background: transparent;
+        }
+    }
+}
+
+.links-sect {
+    background: #F5F5F5;
+    height: 100px;
+    display: flex;
+    align-items: center;
+
+    a {
+        display: flex;
+        align-items: center;
+
+        p {
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 21px;
+            color: #292929;
+        }
+
+        img{
+            height:30px;
+            width:30px;
+        }
+
+        .next-img{
+            margin-left: 10px;
+        }
+
+        .prev-img{
+            margin-right: 10px;
         }
     }
 }
