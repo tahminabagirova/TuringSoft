@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Arimo';
+    src: url('Arimo-BoldItalic.eot');
+    src: url('Arimo-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Arimo-BoldItalic.woff2') format('woff2'),
+        url('Arimo-BoldItalic.woff') format('woff'),
+        url('Arimo-BoldItalic.ttf') format('truetype'),
+        url('Arimo-BoldItalic.svg#Arimo-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url('Arimo-Bold.eot');
+    src: url('Arimo-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Arimo-Bold.woff2') format('woff2'),
+        url('Arimo-Bold.woff') format('woff'),
+        url('Arimo-Bold.ttf') format('truetype'),
+        url('Arimo-Bold.svg#Arimo-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url('Arimo-Italic.eot');
+    src: url('Arimo-Italic.eot?#iefix') format('embedded-opentype'),
+        url('Arimo-Italic.woff2') format('woff2'),
+        url('Arimo-Italic.woff') format('woff'),
+        url('Arimo-Italic.ttf') format('truetype'),
+        url('Arimo-Italic.svg#Arimo-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arimo';
+    src: url('Arimo.eot');
+    src: url('Arimo.eot?#iefix') format('embedded-opentype'),
+        url('Arimo.woff2') format('woff2'),
+        url('Arimo.woff') format('woff'),
+        url('Arimo.ttf') format('truetype'),
+        url('Arimo.svg#Arimo') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

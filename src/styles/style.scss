@@ -1,0 +1,46 @@
+// @import '~font-awesome/css/font-awesome.css';
+@import '~@fortawesome/fontawesome-free/css/all.css';
+@import "vendors/bootstrap";
+@import "molecules/sprite";
+@import 'font/stylesheet.css';
+
+
+@import "general.scss";
+@import "variable.scss";
+
+// .mother-div{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   border: 1px solid;
+//   height: 100vh;
+// }
+
+// .item{
+//   height: 40px;
+//   width: 40px;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   margin:0 10px;
+// }
+
+// .item i{
+//   color: white;
+// }
+
+// .item:first-child{
+//   background: lightblue;
+// }
+
+// .item:nth-child(2){
+//   background: blue;
+// }
+
+// .item:nth-child(3){
+//   background: black;
+// }
+
+// .item:nth-child(4){
+//   background: green;
+// }
