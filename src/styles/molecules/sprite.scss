@@ -18,8 +18,8 @@ $hello-width: 128px;
 $hello-height: 128px;
 $hello-total-width: 256px;
 $hello-total-height: 128px;
-$hello-image: '/src/static/assets/sprite.png';
-$hello: (0px, 0px, 0px, 0px, 128px, 128px, 256px, 128px, '/src/static/assets/sprite.png', 'hello', );
+$hello-image: '/assets/sprite.png';
+$hello: (0px, 0px, 0px, 0px, 128px, 128px, 256px, 128px, '/assets/sprite.png', 'hello', );
 $world-name: 'world';
 $world-x: 128px;
 $world-y: 0px;
@@ -29,13 +29,13 @@ $world-width: 128px;
 $world-height: 128px;
 $world-total-width: 256px;
 $world-total-height: 128px;
-$world-image: '/src/static/assets/sprite.png';
-$world: (128px, 0px, -128px, 0px, 128px, 128px, 256px, 128px, '/src/static/assets/sprite.png', 'world', );
+$world-image: '/assets/sprite.png';
+$world: (128px, 0px, -128px, 0px, 128px, 128px, 256px, 128px, '/assets/sprite.png', 'world', );
 $spritesheet-width: 256px;
 $spritesheet-height: 128px;
-$spritesheet-image: '/src/static/assets/sprite.png';
+$spritesheet-image: '/assets/sprite.png';
 $spritesheet-sprites: ($hello, $world, );
-$spritesheet: (256px, 128px, '/src/static/assets/sprite.png', $spritesheet-sprites, );
+$spritesheet: (256px, 128px, '/assets/sprite.png', $spritesheet-sprites, );
 
 // The provided mixins are intended to be used with the array-like variables
 //

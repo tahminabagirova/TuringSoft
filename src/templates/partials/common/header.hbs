@@ -1,9 +1,115 @@
+ {{!-- MOBILE MENU --}}
+  <div class="mobile-menu">
+    <div class="container d-flex flex-column h-100">
+      <ul>
+        <li>
+          <a class="active" href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="services.html">Services</a>
+        </li>
+        <li>
+          <a href="projects.html">Projects</a>
+        </li>
+        <li>
+          <a href="team.html">Team</a>
+        </li>
+        <li>
+          <a href="">Pricing</a>
+        </li>
+      </ul>
+      {{!-- language  --}}
+      <div class="langSelectContainer">
+        <span>LANGUAGE:</span>
+        <div class="language">
+          <p>EN</p>
+          <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" width="255px" height="255px" viewBox="0 0 255 255"
+            style="enable-background:new 0 0 255 255;" xml:space="preserve">
+            <g>
+              <g id="arrow-drop-down">
+                <polygon points="0,63.75 127.5,191.25 255,63.75" />
+              </g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+            <g>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {{!-- language --}}
+  <div class="selectLanguage">
+    <div class="miniHeader">
+      <div class="content">
+        <span>Language</span>
+      </div>
+      <div class="closeIconLang">
+        <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2.22217" width="25.1415" height="3.14269" transform="rotate(45 2.22217 0)" fill="#566178" />
+          <rect y="17.7772" width="25.1416" height="3.14269" transform="rotate(-45 0 17.7772)" fill="#566178" />
+        </svg>
+      </div>
+    </div>
+    <div class="checkbox-wrapper">
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="lang" id="az" value="az">
+        <label class="form-check-label" for="az">
+          AZ
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="lang" id="en" value="en" checked>
+        <label class="form-check-label" for="en">
+          EN
+        </label>
+      </div>
+
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="lang" id="ru" value="ru" checked>
+        <label class="form-check-label" for="ru">
+          РУС
+        </label>
+      </div>
+    </div>
+  </div>
+
 <header>
     {{!-- header top --}}
     <div class="header-top">
         <div class="container">
             <div class="row d-flex justify-content-between align-items-center h-100">
-                <div class="col-7 d-flex align-items-center">
+                <div class="col-7 d-lg-flex d-none align-items-center">
                     <div class="item">
                         <img src="/assets/location (1) 1.png" alt="">
                         <span>H.Aliyev 55 str.,Baku,Azerbaijan</span>
@@ -13,7 +119,7 @@
                         <span>+994 051 568 66 55</span>
                     </div>
                 </div>
-                <div class="col-5 d-flex justify-content-end">
+                <div class="col-lg-5 col-12 d-flex justify-content-end">
                     <div class="social-icons">
                         <a href="">
                             <i class="fab fa-facebook-f"></i>
@@ -56,12 +162,12 @@
     <div class="header-bottom">
         <div class="container">
             <div class="row">
-                <div class="col-3">
+                <div class="col-lg-3 col-5">
                     <a href="index.html" class="logo">
                         <img src="/assets/logo.svg" alt="">
                     </a>
                 </div>
-                <div class="col-6 d-flex align-items-center justify-content-center">
+                <div class="col-md-6 d-lg-flex d-none align-items-center justify-content-center">
                     <ul class="menu">
                         <li>
                             <a class="active" href="index.html">Home</a>
@@ -80,9 +186,14 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-3 d-flex align-items-center justify-content-end">
+                <div class="col-lg-3 col-7 d-flex align-items-center justify-content-end">
                     <button class="btn_outline">
                         Contact us
+                    </button>
+                    <button id="toggleMenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </button>
                 </div>
             </div>
@@ -91,7 +202,7 @@
 </header>
 
 <!-- Button up -->
-	<button class="buttonUp">
-		<img src="/assets/ArrowDownShort.svg" alt="">
-	</button>
+<button class="buttonUp">
+    <img src="/assets/ArrowDownShort.svg" alt="">
+</button>
 <!-- Button up -->
